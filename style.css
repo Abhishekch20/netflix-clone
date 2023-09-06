@@ -1,0 +1,369 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0 !important;
+}
+.main-container{
+   display: flex;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-left: 10vw;
+    padding-right: 6vw;
+
+}
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(netflix\ bgi2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-logo{
+    width: 14%;
+    color: #e50914;
+    height: 80px;
+}
+.btn-signin{
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #e50914;
+    width: fit-content;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-signin:hover{
+    background-color: #c51f27;
+
+}
+.options{
+    float: left;
+    padding: 6px 6px ;
+    height: 34px;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: rgb(7, 7, 7);
+}
+.main-container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-titles-container{
+    color: #fff;
+    text-align: center;
+    width: 70%;
+}
+.main-title{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin:0px 0px;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.main-para1{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.email-btn{
+    width: 370px;
+    height: 55px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 20px;
+    background: transparent;
+    color: #ffffff;
+}
+.placehholder{
+    color: #ffffff;
+}
+.get-strt-btn{
+    width: fit-content;
+    padding: 12px 24px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #e50914;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.get-strt-btn:hover{
+    background-color: #c51f27;
+}
+.main-container2{
+    padding-top: 150px;
+    justify-content: space-around;
+    background-color: black;
+    display: flex;
+}
+.contents1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.con-tit1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    padding-top: 50px;
+}
+.con-para1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+.img-1{
+    height: 330px;
+    width: 600px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+}
+
+.main-container3{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.contents2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 180px;
+    margin-right: 300px;
+}
+.con-tit2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+.con-para2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-2{
+    padding-bottom: 120px;
+    padding-left: 0px;
+}
+.main-container4{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.contents3{
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.con-tit3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+.con-para3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+.img-3{
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 600px;
+}
+.main-container5{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.con-tit4{
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-container6{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1000px;
+    color: rgb(190, 192, 194);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion li label:hover{
+    background-color: #3e3d3d;
+}
+
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+label::after::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s , padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label+ .content{
+
+    max-height: 600px;
+    padding: 30px 20px;
+
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.accordion input[type="radio"]:checked + label::after::after{
+    transform: rotate(0deg);
+}
+
+.main-container5 p{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.main-container7{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 560px;
+}
+.bo{
+    color: rgb(182, 180, 180);
+    border: 2px solid black;
+    height: 400px;
+    width: 25%;
+    margin: 40px 40px 0px 40px;
+    background-color: rgb(28, 25, 25);
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.bo h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bo p{
+    font-size: 25px;
+    padding: 12px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.box4 p{
+    font-size: 25px;
+    padding-top: 25px;
+}
+.box6 p{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.bo:hover{
+    background-color: rgb(55, 53, 53);
+}
+footer{
+    background-color: black;
+    color: #b5b1b1;
+    padding-top: 100px;
+    
+}
+
+footer .fot-1{
+    padding-top: 2px;
+    margin: 0px 0px 0px 160px;
+    font-size: 20px;
+}
+
+.footerrr{
+    display: flex;
+    margin: 17px 272px 0px 123px;
+    gap: 200px;
+}
+
+.footerrr ul{
+    margin-top: 50px;
+}
+
+.footerrr ul li{
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    color: rgb(191, 192, 193);
+    cursor: pointer;
+}
+
+.foote{
+    margin: 30px 38% 0px;
+    color: rgb(155, 158, 159);
+    font-size: 20px;
+}
+
